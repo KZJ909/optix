@@ -1,0 +1,30 @@
+/* 55. 404 csst */
+
+
+.not-found {
+	h2 {
+		font-size: 80px;
+		font-weight: 600;
+		line-height: 96px;
+		color: var(--clr-white);
+	}
+	p {
+		font-family: var(--font-1);
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 36px;
+		color: #757589!important;
+	}
+}
+
+.not-found-btn {
+	font-family: DM Sans;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 1;
+	padding: 15px 25px;
+	color: var(--clr-white);
+	display: inline-block;
+	background: var(--clr-def);
+	border-radius: 10px;
+}

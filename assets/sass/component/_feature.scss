@@ -1,0 +1,61 @@
+/*-------------------------------------------------------
+41. Feature css
+---------------------------------------------------------*/
+
+.feature-box {
+	padding: 0 0 50px 30px;
+	background: var(--clr-bg-2);
+	border-bottom: 2px solid var(--clr-c3);
+	transition: all .5s ease;
+	&:hover {
+		background: var(--clr-def);
+		.feature-icon {
+			i {
+				color: var(--clr-def);
+				background: var(--clr-white);
+			}
+		}
+	}
+	.feature-icon {
+		display: flex;
+		justify-content: flex-end;
+		i {
+			font-size: 4rem;
+			width: 92px;
+			height: 74px;
+			line-height: 74px;
+			display: inline-block;
+			text-align: center;
+			color: var(--clr-white);
+			clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+			background: var(--clr-def);
+			transition: all .5s ease;
+		}
+	}
+	.feature-desc {
+		.feature-value {
+			font-size: 80px;
+			font-weight: 600;
+			line-height: 1;
+			color: var(--clr-white-80);
+			font-family: var(--font-1);
+			display: inline-block;
+			margin-bottom: 4rem;
+		}
+		h4 {
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 32px;
+			letter-spacing: 0.01em;
+			color: var(--clr-white);
+			padding-left: 40px;
+			text-transform: capitalize;
+		}
+	}
+}
+
+
+
+
+
+

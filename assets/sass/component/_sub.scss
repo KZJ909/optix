@@ -1,0 +1,64 @@
+/*-------------------------------------------------------
+38. Sub css
+---------------------------------------------------------*/
+
+
+.subs-title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: var(--clr-white);
+}
+
+.subs-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	color: #97A0AE;
+}
+
+.subs-form {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.subs-input {
+	border: 1px solid var(--clr-border-2);
+	height: 46px;
+	width: 100%;
+	background: var(--clr-heading);
+	padding-left: 2rem;
+	&::placeholder {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		color: #97A0AE;
+	}
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+.subs-btn {
+	padding: 16px;
+	border: 1px solid var(--clr-border-2);
+	background: rgba(255,255,255,.06);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	color: var(--clr-white);
+	transition: all .5s ease;
+	&:hover {
+		background: rgba(255,255,255,1);
+		color: var(--clr-heading);
+	}
+}
+
+.subs-area {
+	padding-bottom: 24px;
+	border-bottom: 1px solid var(--clr-border-2);
+	margin-bottom: 4rem;
+}
+

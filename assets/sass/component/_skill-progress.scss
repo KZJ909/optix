@@ -1,0 +1,25 @@
+/*-------------------------------------------------------
+49. Skill Progress css 
+---------------------------------------------------------*/
+
+.progress-box {
+	margin-bottom: 4rem;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	h5 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 24px;
+		color: var(--clr-white);
+	}
+	.progress {
+		--bs-progress-height: 7px;
+		.progress-bar {
+			background-color: var(--clr-def);
+		}
+	}
+}

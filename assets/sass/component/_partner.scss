@@ -1,0 +1,50 @@
+/*-------------------------------------------------------
+48. Partner css
+---------------------------------------------------------*/
+
+.ptnr-sldr {
+	.swiper-slide {
+		text-align: center;
+	}
+}
+
+.partner-text {
+	font-family: var(--font-1);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1;
+	color: var(--clr-white);
+	text-align: center;
+}
+
+.sample-slider {
+	.swiper-slide {
+		text-align: center;
+	}
+}
+
+.partner-text-2 {
+	font-size: 96px;
+	line-height: 1;
+	margin-bottom: 0;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #BCBCBC;
+}
+
+.swiper-slide-active {
+	.partner-text-2 {
+		-webkit-text-fill-color: var(--clr-white);
+	}
+}
+
+//partner 2
+
+.partner-box {
+	border: 1px solid #D9D9D926;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

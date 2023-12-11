@@ -1,0 +1,211 @@
+/*-------------------------------------------------------
+21. Topbar css 
+---------------------------------------------------------*/
+
+/* Initial styling to hide the search overlay */
+.search-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Additional styles for the search input and close button */
+#search-input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#close-btn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-overlay {
+  display: none;
+  /* Other styles for your overlay */
+}
+
+.search-overlay.active {
+  display: block;
+  /* Additional styles to show the overlay */
+}
+
+
+.top-bar-area {
+	padding: 20px 0;
+	position: relative;
+	z-index: 999;
+}
+
+.topbar-left {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	i {
+		line-height: 1;
+		display: inline-block;
+	}
+	span {
+		font-size: 14px;
+		font-weight: 400;
+		display: inline-block;
+		line-height: 1;
+		color: var(--clr-heading);
+	}
+}
+
+.top-barshp {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+}
+
+.topbar-before-off {
+	&::before {
+		display: none;
+	}
+}
+
+.topbar-white {
+	.top-box {
+		color: var(--clr-white);
+		a {
+			color: var(--clr-white);
+		}
+		i {
+			color: var(--clr-white);
+		}
+	}
+}
+
+.top-bar-social {
+    justify-content: flex-end;
+}
+
+.top-social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+	justify-content: flex-end;
+	li {
+		a {
+			i {
+				color: var(--clr-white);
+				font-size: 1.5rem;
+				display: inline-block;
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+//Topbar right content
+
+.j-header-content {
+	gap: 20px;
+}
+
+.top-site-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: var(--clr-heading);
+	padding: 0;
+	border: none;
+	background: transparent;
+}
+
+//Search
+
+.j-search-form {
+	position: relative;
+	z-index: 1;
+	.j-form-control {
+		border: 1px solid var(--clr-border);
+		width: 100%;
+		height: 46px;
+		padding: 8px;
+		border-radius: 3px;
+	}
+	.j-form-btn {
+		background: transparent;
+		border: none;
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		right: 10px;
+		transform: translate(0,-50%);
+		line-height: 1;
+	}
+}
+
+.search-cart {
+	.dropdown-menu[data-bs-popper] {
+		top: 200%;
+		left: -100px;
+	}
+}
+
+.search-drop {
+    box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+    width: 240px;
+    padding: 2rem;
+    border: none;
+	top: 223%;
+}
+
+.dropdown-menu {
+	box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+    padding: 2rem;
+    border: none;
+	.dropdown-item {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+		&:focus {
+			box-shadow: none;
+		}
+		&:hover {
+			background: transparent;
+		}
+	}
+}
+
+.user-profl,
+.lang {
+	.dropdown-menu {
+		width: 160px;
+		li {
+			display: block;
+			margin-bottom: 1rem;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+

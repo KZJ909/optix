@@ -1,0 +1,155 @@
+/*-------------------------------------------------------
+23. Contact css 
+---------------------------------------------------------*/
+
+.contact-left-up {
+	h4 {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 29px;
+		color: var(--clr-white);
+	}
+	span {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1;
+		display: block;
+		color: var(--clr-bbb);
+	}
+}
+
+.input-pos {
+	.input-style-2 {
+		background: rgba(0,0,0,.7);
+		border: none;
+		height: 48px;
+		color: var(--clr-white-50);
+		font-size: 16px;
+		&::placeholder {
+			font-family: var(--font-1);
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1;
+			color: var(--clr-white-50);
+		}
+		&:focus {
+			background: rgba(0,0,0,.7);
+			border: none;
+			outline: none;
+			box-shadow: none;
+		}
+	}
+}
+
+.input-style-textarea-1 {
+	height: 100px;
+	background: rgba(0,0,0,.7);
+	border: none;
+	color: var(--clr-white-50)!important;
+	font-size: 16px;
+	margin-bottom: 30px;
+	&::placeholder {
+		font-family: var(--font-1);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1;
+		color: var(--clr-white-50);
+	}
+	&:focus {
+		background: rgba(0,0,0,.7);
+		border: none;
+		outline: none;
+		box-shadow: none;
+		color: var(--clr-white-50);
+	}
+}
+
+.login-btn {
+	font-family: var(--font-1);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1;
+	padding: 15px 25px;
+	border-radius: 4px;
+	background: linear-gradient(90.17deg, #EDCE1D 3.99%, rgba(223, 165, 135, 0.81) 95.85%);
+	color: #101111;
+	border: none;
+	outline: none;
+}
+
+
+//Contact page
+
+.contact-page {
+	padding: 30px 40px;
+	background: #1a1b1b;
+	.input-style-textarea-1 {
+		height: 232px;
+	}
+}
+
+.contact-page-right-content {
+	padding: 100px;
+	background: #151515;
+	height: 100%;
+}
+
+.contact-kl-title {
+	font-family: var(--font-1);
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 38px;
+	color: var(--clr-white);
+	margin-bottom: 30px;
+}
+
+.contact-page-right-up {
+	.contact-kl-sub {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1;
+		color: var(--clr-white);
+	}
+}
+
+.contact-kl-box {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 15px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	i {
+		display: inline-block;
+	}
+	p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		color: var(--clr-white-60);
+	}
+}
+
+/*Google Maps*/
+
+.g-map-area {
+	height: 50vh;
+}
+
+.g-map--wrapper iframe {
+    width: 100%;
+    height: 100vh;
+	border: none;
+	filter: grayscale(100%) invert(100%);
+}
+
+.g-map-home {
+	iframe {
+		filter: grayscale(100%) invert(100%);
+	}
+}
+
+
+
+

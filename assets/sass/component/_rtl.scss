@@ -1,0 +1,75 @@
+/*-------------------------------------------------------
+15. RTL css
+---------------------------------------------------------*/
+
+.rtl-mode {
+	padding: 16px 12px;
+	font-size: 16px;
+	color:var(--clr-white);
+	background: rgba(0,0,0,.5);
+	border: none;
+	bottom: 300px;
+	right: 0;
+	margin-top: -115px;
+	z-index: 7777;
+	line-height: 1;
+	position: fixed;
+	text-align: left;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+[dir="rtl"] {
+	
+	//Header
+	
+	.bsnav-mobile .navbar {
+		right: 0;
+		transform: translate3d(300px, 0, 0);
+		left: inherit;
+		padding: 70px 1.5rem 0 0;
+	}
+	
+	.navbar .navbar-nav .nav-item:last-child .nav-link {
+		margin-right: 30px;
+	}
+	.navbar .navbar-nav .nav-item:first-child .nav-link {
+		margin-right: 0;
+	}
+	
+	//Select
+	
+	select.form-control.input-style-2.form-select {
+		background-position: top 20px left 20px;
+	}
+	.styledSelect::after {
+		right: unset;
+		left: 10px;
+	}
+	.styledSelect {
+		padding-left: 0;
+		padding-right: 1rem;
+	}
+	//Footer
+	.footer-widget-title::before {
+		left: inherit;
+	}
+	.news-block-meta-text img {
+		margin-right: 0;
+		margin-left: 6px;
+	}
+	
+}
+
+[dir="ltr"] nav {
+  margin-left: auto;
+}
+
+[dir="rtl"] nav {
+  margin-right: auto;
+}
+
+

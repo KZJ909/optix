@@ -1,0 +1,30 @@
+/*-------------------------------------------------------
+24. Text COlor css 
+---------------------------------------------------------*/
+
+
+.text-def-4 {
+	color: var(--clr-def-4);
+}
+
+.text-grad {
+	background: var(--clr-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-grad-2 {
+	background: var(--clr-gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-theme {
+	background: var(--clr-def);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}

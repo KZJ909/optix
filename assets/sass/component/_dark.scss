@@ -1,0 +1,253 @@
+/*-------------------------------------------------------
+50. Best css 
+---------------------------------------------------------*/
+
+.dark-mode {
+	background: #1c222a;
+	//topbar nav
+	.bsnav {
+		background: transparent;
+	}
+	.navbar .navbar-nav .nav-item .nav-link {
+		color: var(--clr-border);
+	}
+	.header-2 .navbar {
+		border-top: 1px solid var(--clr-border-3);
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	.dark-mode-logo {
+		display: inline-block;
+	}
+	.light-mode-logo {
+		display: none;
+	}
+	.author-social-contact li a i {
+		color: var(--clr-border);
+		border: 1px solid var(--clr-border-3);
+	}
+	.topbar-left {
+		i {
+			img {
+				filter: invert(1);
+			}
+		}
+		span {
+			color: var(--clr-border);
+		}
+	}
+	.top-right {
+		i {
+			img {
+				filter: invert(1);
+			}
+		}
+		.txt-tt {
+			color: var(--clr-border);
+			&.flg-lfex {
+				color: var(--clr-heading);
+			}
+		}
+		.lang {
+			.top-site-text {
+				img {
+					filter: invert(0);
+				}
+				i {
+					color: var(--clr-border);
+				}
+			}
+		}
+		.user-profl {
+			.top-site-text {
+				img {
+					filter: invert(1);
+				}
+			} 
+		} 
+	}
+	.site-heading {
+		border-bottom: 1px solid var(--clr-border-3);
+		color: var(--clr-border);
+	}
+	
+	.nnm {
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	
+	.nn-heading {
+		color: var(--clr-border);
+	}
+	
+	.btn-transparent {
+		color: var(--clr-border);
+		border: 1px solid var(--clr-border-3);
+	}
+	
+	.filter-menu-style-2 button {
+		color: var(--clr-border);
+		border-right: 1px solid var(--clr-border);
+	}
+	
+	.uni-box-title {
+		color: var(--clr-border);
+	}
+	
+	.user-profile-title h4 {
+		color: var(--clr-border);
+	}
+	
+	.about-uss h5 {
+		color: var(--clr-border);
+	}
+	
+	//blog
+	.blog-title {
+		color: var(--clr-border);
+	}
+	
+	.border-btm {
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	.blockqoute {
+		background: #151A21;
+		color: var(--clr-border);
+	}
+	.single-list li span {
+		color: var(--clr-border);
+	}
+	.single-list li i {
+		color: var(--clr-border);
+	}
+	.input-style-textarea {
+		border: 1px solid var(--clr-border-3);
+		background: transparent;
+	}
+	.single-commentor li {
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	.nnmn .swiper-button-next, .nnmn .swiper-button-prev {
+		color: var(--clr-border);
+	}
+	.divider {
+		background: var(--clr-border-3);
+	}
+	//Sidebar
+	.widget-social-contact li {
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	
+	.tags-link {
+		border: 1px solid var(--clr-border-3);
+	}
+	.category-list ul li {
+		border-bottom: 1px solid var(--clr-border-3);
+	}
+	//Search page
+	.search-block {
+		form {
+			input {
+				border: 1px solid var(--clr-border-3);
+				background: transparent;
+			}
+			button {
+				background: #3A4352;
+			}
+		} 
+	} 
+	//Term
+	.term-list {
+		li {
+			i {
+				color: var(--clr-border);
+			}
+		} 
+	} 
+	//Other
+	.user-box-design {
+		border: 1px solid var(--clr-border-3);
+	}
+	.news-post-tabs .nav-tabs {
+		border: 1px solid var(--clr-border-3);
+	}
+	.news-post-tabs .nav-tabs .nav-item .nav-link {
+		color: var(--clr-border);
+		background: transparent;
+	}
+	.setting-list li .setting-wrap .setting-text span {
+		color: var(--clr-border);
+	}
+	.setting-wrap {
+		.txt-tt {
+			color: var(--clr-border);
+		}
+		.txt-tt.flg-lfex {
+			color: var(--clr-heading);
+		}
+		.top-site-text {
+			i {
+				color: var(--clr-border);
+			}
+		}
+		.setting-text {
+			img {
+				filter: invert(1);
+			}
+		}
+	}
+	//Contact
+	.contact-contact-box {
+		background: #151A21;
+	}
+	.contact-ttt {
+		color: var(--clr-border);
+	}
+	.contact-contact-jk .contact-contact-icon i img {
+		filter: invert(1);
+	}
+	.login-title-top {
+		color: var(--clr-border);
+	}
+	.login-top-text {
+		color: var(--clr-border);
+	}
+	.login-top-link {
+		border: 1px solid var(--clr-border-3);
+	}
+	.form-check-input[type=checkbox] {
+		border: 1px solid var(--clr-border-3);
+		background: transparent;
+	}
+	.login-label {
+		color: var(--clr-border);
+	}
+	.login-top-divide {
+		p {
+			background: #1C222A;
+		}
+		span {
+			background: var(--clr-border-3);
+		}
+	} 
+	.login-form {
+		.input-style-2 {
+			border: 1px solid var(--clr-border-3);
+			background: transparent;
+		}
+		.input-style-textarea {
+			background: transparent;
+			border: 1px solid var(--clr-border-3);
+		}
+		.input-pos .input-icon {
+			filter: invert(1);
+		}
+	} 
+	//Footer
+	.footer {
+		background: #151A21;
+	}
+}
+
+#togs {
+	cursor: pointer;
+}
+

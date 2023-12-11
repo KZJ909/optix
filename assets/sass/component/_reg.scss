@@ -1,0 +1,170 @@
+/*-------------------------------------------------------
+36. Reg css 
+---------------------------------------------------------*/
+
+//Top content
+
+.login-title-top {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.login-title-sub {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	display: inline-block;
+}
+
+.login-top-link {
+	padding: 14px 20px;
+	border: 1px solid var(--clr-border);
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	color: var(--clr-heading);
+}
+
+.login-top-divide {
+	padding: 40px 0;
+	text-align: center;
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		display: inline-block;
+		margin-bottom: 0;
+		background: var(--clr-white);
+		padding: 0 1rem;
+	}
+	span {
+		display: block;
+		height: 1px;
+		width: 100%;
+		background: var(--clr-border);
+		margin-top: -12px;
+	}
+}
+
+//Form
+
+.login-form {
+    .input-style-2 {
+        height: 4.6rem;
+        border-radius: 4px;
+		border: 1px solid var(--clr-border);
+		padding-left: 50px;
+        &::placeholder {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 14px;
+			color: #97A0AE;
+        }
+    }
+    .login-btn {
+        display: block;
+        width: 100%;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 14px;
+		background: var(--clr-blue);
+		color: var(--clr-white);
+		padding: 16px 0;
+		border: none;
+		transition: all .5s ease;
+		&:hover {
+			background: var(--clr-def);
+		}
+    }
+    .reg-acc {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		text-align: center;
+        a {
+            color: var(--clr-blue);
+        }
+    }
+}
+
+.input-pos {
+	position: relative;
+	z-index: 1;
+	.input-icon {
+		position: absolute;
+		left: 17px;
+		top: 50%;
+		transform: translate(0,-50%);
+	}
+	.input-icon-2 {
+		position: absolute;
+		right: 17px;
+		top: 50%;
+		transform: translate(0,-50%);
+	}
+}
+
+.login-pass {
+	padding-right: 50px;
+}
+
+.form-checkbox {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-check {
+    display: flex;
+    min-height: 1.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    align-items: center;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+    margin-top: 0;
+    vertical-align: top;
+    float: inherit;
+    margin-left: 0;
+}
+
+.rs-ps {
+    margin-top: -7px;
+    display: block;
+    font-size: 1.4rem;
+	color: var(--clr-def);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.login-label {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	color: var(--clr-heading);
+	margin-bottom: 15px;
+}
+
+.form-check-label {
+    color: var(--clr-body);
+    margin-left: 1rem;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.register-title {
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+}

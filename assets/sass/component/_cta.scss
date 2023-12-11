@@ -1,0 +1,78 @@
+/*-------------------------------------------------------
+45. CTA css  
+---------------------------------------------------------*/
+
+.p-200 {
+	padding: 200px 0;
+}
+
+.p-337 {
+	padding: 337px 0;
+}
+
+.cta-wpr {
+	text-align: center;
+	h2 {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 62px;
+	}
+}
+
+//Cta 2
+
+
+.cta-2-padding {
+    margin-top: -180px;
+    padding-top: 320px;
+	padding-bottom: 12rem;
+}
+
+.cta-2 {
+	background: linear-gradient(180deg, #B70F0F 0%, rgba(123, 42, 42, 0.36) 100%);
+}
+
+.cta-2-title {
+	font-size: 96px;
+	font-weight: 700;
+	line-height: 1;
+	color: var(--clr-white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+	transition: all .5s ease;
+	&:hover {
+		img {
+			transform: translateX(20px);
+		}
+	}
+	span {
+		border-bottom: 2px solid var(--clr-def);
+		display: inline-block;
+		margin-right: 10px;
+	}
+}
+
+.cta-2-title-2 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1;
+	color: var(--clr-white);
+}
+
+.cta-play {
+	a {
+		i {
+			background: linear-gradient(180deg, #EDCE1D 0%, rgba(223, 165, 135, 0.96) 100%);
+			width: 80px;
+			height: 80px;
+			line-height: 80px;
+			text-align: center;
+			border-radius: 50%;
+			color: var(--clr-white);
+			font-size: 18px;
+		}
+	}
+}
+

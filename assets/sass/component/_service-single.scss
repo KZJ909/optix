@@ -1,0 +1,174 @@
+/*-------------------------------------------------------
+40. Service Single css 
+---------------------------------------------------------*/
+
+.service-single-title {
+	font-family: var(--font-1);
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 36px;
+	color: var(--clr-white);
+}
+
+.title-part {
+	font-family: var(--font-1);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	color: var(--clr-white);
+}
+
+.service-single-txt {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: var(--clr-bbb);
+}
+
+.service-single-part-opt {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.service-single-list {
+	li {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+		i {
+			display: inline-block;
+		}
+		span {
+			font-family: var(--font-1);
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1;
+			color: var(--clr-white);
+		}
+	}
+}
+
+//Service Sidebar
+
+.service-sidebar-widget {
+	padding: 50px;
+	background: #151515;
+	margin-bottom: 30px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.service-sidebar-widget-title {
+	font-family: var(--font-1);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	color: var(--clr-white);
+}
+
+.service-sidebar-list-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	li {
+		a {
+			transition: all .5s ease;
+			&:hover {
+				border: 1px solid var(--clr-def-3);
+				background: var(--clr-def-3);
+			}
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 10px;
+			border: 1px solid #FFFFFF1A;
+			padding: 13px 20px;
+			border-radius: 4px;
+			span {
+				font-family: var(--font-1);
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 1;
+				display: inline-block;
+				color: var(--clr-white);
+			}
+		}
+	}
+}
+
+//Service sidebar contact
+
+.service-side-box {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 20px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.service-side-desc {
+	h4 {
+		font-family: var(--font-1);
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+		color: var(--clr-white);
+	}
+	span {
+		font-size: 16px;
+		font-weight: 400;
+		display: block;
+		color: var(--clr-bbb);
+	}
+}
+
+//Brochure
+
+.service-widget-brochure-btns {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	
+}
+
+.brochure-btn {
+	display: flex;
+	align-items: center;
+	font-family: var(--font-1);
+	gap: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	color: var(--clr-white);
+	padding: 13px 20px;
+	border: 1px solid #FFFFFF4D;
+}
+
+//Contact Number
+
+.cn-nm-wpr {
+	text-align: center;
+	h4 {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 24px;
+		margin-bottom: 15px;
+		color: var(--clr-white);
+	}
+	span {
+		display: inline-block;
+		font-family: var(--font-1);
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 24px;
+		padding: 4px 12px;
+		border-radius: 4px;
+		background: var(--clr-def);
+		color: var(--clr-white);
+	}
+}
