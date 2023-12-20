@@ -2,64 +2,33 @@
 26. About css 
 ---------------------------------------------------------*/
 
-.about-pics {
-	padding-bottom: 93px;
-}
-
-.about-1 {
-	border-radius: 10px;
-}
-
-.about-2 {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
-.btnpl {
-    position: absolute;
-    top: 34%;
-    left: 35%;
-}
-
-.play-abs {
-	font-family: var(--font-1);
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 1;
-	color: var(--clr-white);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	display: inline-block;
-	transform: translate(-50%,-50%);
-	z-index: 3;
-}
-
-.about-right-up {
-	h2 {
-		color: var(--clr-white);
-	}
-	h4 {
-		color: var(--clr-white);
-	}
-	p {
-		color: var(--clr-white-70);
-	}
-}
-
-.about-btn-btm {
+.about-count {
 	display: flex;
 	align-items: center;
-	gap: 75px;
-	.btn-1 {
-		width: 215px;
+	gap: 50px;
+	.about-count-box {
+		h2 {
+			font-family: var(--font-1);
+			font-size: 56px;
+			font-weight: 600;
+			line-height: 64px;
+			letter-spacing: -2px;
+		}
+		span {
+			font-family: var(--font-1);
+			color: var(--clr-heading);
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 30px;
+			display: inline-block;
+		}
 	}
-	.about-sig {
-		display: flex;
-		align-items: center;
-		gap: 30px;
-	}
+}
+
+.about-text {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #E6E6EB
 }
 
 .about-list {
@@ -86,93 +55,4 @@
 		}
 	}
 }
-
-//About 2
-
-.about-left-pic-2 {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	.elp-main {
-		padding: 10px;
-		border: 1px dashed var(--clr-def);
-		border-radius: 50%;
-	}
-}
-
-.about-left-yr {
-	position: absolute;
-	top: -60px;
-	right: -30px;
-}
-
-.about-cn {
-	position: absolute;
-    top: 60px;
-    left: 50px;
-    rotate: -45deg;
-    text-align: center;
-    line-height: 1;
-	p {
-		font-size: 32px;
-		font-weight: 800;
-		color: var(--clr-black-2);
-		margin-bottom: 0;
-		line-height: 1;
-	}
-	span {
-		color: var(--clr-black-2);
-		display: inline-block;
-		font-size: 10px;
-		font-weight: 700;
-	}
-}
-
-.about-right-tx {
-	h2 {
-		font-family: var(--font-1);
-		font-size: 48px;
-		font-weight: 700;
-		line-height: 62px;
-		letter-spacing: -0.02em;
-		color: var(--clr-white);
-	}
-	h4 {
-		font-family: var(--font-1);
-		font-size: 24px;
-		font-weight: 500;
-		line-height: 34px;
-		color: var(--clr-white);
-	}
-}
-
-//About 3
-
-
-.about-list-2 {
-	li {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		i {
-			color: var(--clr-def);
-		}
-		span {
-			font-family: var(--font-1);
-			font-size: 20px;
-			font-weight: 600;
-			line-height: 1;
-			display: inline-block;
-			color: var(--clr-white);
-		}
-	}
-}
-
-.play-btn-3 {
-	position: absolute;
-	top: 50%;
-	left: 58%;
-	transform: translate(-50%,-50%);
-}
-
 

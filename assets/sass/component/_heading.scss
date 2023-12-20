@@ -2,6 +2,16 @@
 22. Heading css 
 ---------------------------------------------------------*/
 
+.title-site {
+	font-family: var(--font-1);
+	color: var(--clr-heading);
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 55px;
+	letter-spacing: -2px;
+	display: block;
+}
+
 .heading-1 {
 	font-size: 48px;
     line-height: 1.2;
@@ -87,26 +97,24 @@
 }
 
 .hero-title {
+	font-family: var(--font-1);
 	font-size: 80px;
-	font-weight: 700;
-	line-height: 96px;
+	font-weight: 600;
+	line-height: 88px;
+	letter-spacing: -4px;
 	span {
-		color: var(--clr-def-2);
-		font-family: var(--font-2);
-		font-weight: 200;
-		border-bottom: 3px solid var(--clr-def);
+		color: var(--clr-def);
 	}
 }
 
 .hero-title-light {
-	font-size: 7.2rem;
-    line-height: 1.2;
-	font-weight: 300;
-	font-family: var(--font-2);
+	font-family: var(--font-1);
+	font-size: 80px;
+	font-weight: 200;
+	line-height: 88px;
+	letter-spacing: -4px;
 	span {
 		color: var(--clr-def);
-		font-family: var(--font-2);
-		font-weight: 200;
 	}
 }
 
@@ -210,16 +218,15 @@
 }
 
 .title-sub {
-	color: white;  /* Fallback: assume this color ON TOP of image */
-	background: linear-gradient(90.17deg, #EDCE1D 3.99%, rgba(223, 165, 135, 0.81) 95.85%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-family: var(--font-2);
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 1;
-	letter-spacing: 0.04em;
+	background: var(--clr-def);
+	font-family: var(--font-1);
+	color: var(--clr-heading);
+	border-radius: 50px;
 	display: inline-block;
+	padding: 10px 25px;
 }
 
 

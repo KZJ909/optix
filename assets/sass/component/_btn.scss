@@ -219,9 +219,9 @@
 	border: 2px solid var(--clr-white);
 	background-color: transparent;
 	&:hover {
-		background-color: var(--clr-def-2); 
-		color: var(--clr-white); 
-		border: 2px solid var(--clr-def-2);
+		background-color: var(--clr-def); 
+		color: var(--clr-heading); 
+		border: 2px solid var(--clr-def);
 	}
 }
 .btn-border-2 {
