@@ -3,7 +3,6 @@
 13. Navbar css 
 ---------------------------------------------------------*/
 
-
 .bg-custom {
 	.navbar {
 		background: var(--clr-black);
@@ -27,9 +26,14 @@
 }
 
 .navbar.in {
+	box-shadow: 0 0 10px rgba(0,0,0,.07);
     .search-cart {
 		.hjkl {
 			color: #1b1b1b;
+		}
+		.btn-1 {
+			background: var(--clr-def);
+			color: var(--clr-heading);
 		}
 	}
 }

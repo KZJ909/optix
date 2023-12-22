@@ -10,6 +10,9 @@
 	line-height: 55px;
 	letter-spacing: -2px;
 	display: block;
+	span {
+		color: var(--clr-def);
+	}
 }
 
 .heading-1 {
@@ -227,6 +230,10 @@
 	border-radius: 50px;
 	display: inline-block;
 	padding: 10px 25px;
+	&.blk {
+		color: var(--clr-white);
+		background: var(--clr-heading);
+	}
 }
 
 

@@ -2,6 +2,59 @@
 34. Review css
 ---------------------------------------------------------*/
 
+//Revs
+
+.revs-box {
+	padding: 30px;
+	background: var(--clr-bg);
+	border-radius: 16px;
+	.revs-quote {
+		height: 48px;
+		width: 48px;
+		line-height: 48px;
+		display: inline-block;
+		background: var(--clr-def);
+		border-radius: 50%;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.revs-quote-text {
+		font-family: var(--font-1);
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 30px;
+		color: var(--clr-heading);
+		margin-bottom: 3rem;
+	}
+}
+
+.revs-bio {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	.revs-bio-text {
+		h5 {
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 27px;
+			margin-bottom: 5px;
+		}
+		span {
+			font-family: var(--font-1);
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 21px;
+			display: block;
+		}
+	}
+}
+
+
+
+
+
+
+
 .rev-star {
 	display: inline-block;
 	color: #F9BE17;

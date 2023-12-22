@@ -12,7 +12,7 @@
 	line-height: 1;
 	padding: 2.5rem 5.5rem;
 	background-color: var(--clr-def);
-	color: var(--clr-white);
+	color: var(--clr-heading);
 	border-radius: 5px;
 	border: none;
 	outline: none;
@@ -218,6 +218,7 @@
 .btn-border {
 	border: 2px solid var(--clr-white);
 	background-color: transparent;
+	color: var(--clr-white); 
 	&:hover {
 		background-color: var(--clr-def); 
 		color: var(--clr-heading); 

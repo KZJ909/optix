@@ -2,6 +2,10 @@
 48. Partner css
 ---------------------------------------------------------*/
 
+.inf-slider {
+    rotate: -2deg;
+}
+
 .ptnr-sldr {
 	.swiper-slide {
 		text-align: center;
@@ -14,7 +18,7 @@
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 30px;
-	color: #14123B;
+	color: var(--clr-white);
 	text-transform: uppercase;
 }
 
