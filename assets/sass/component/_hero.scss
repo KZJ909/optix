@@ -17,7 +17,7 @@
 }
 
 .hero-padding-2 {
-	padding: 200px 0 120px 0;
+	padding: 150px 0 120px 0;
 }
 
 @mixin para-clr ($clr-white-opc) {
@@ -101,7 +101,6 @@
 
 .hero-home-2 {
 	.hero-content {
-		margin-bottom: 30px;
 		p {
 			font-size: 18px;
 			font-weight: 500;

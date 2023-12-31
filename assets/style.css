@@ -1424,7 +1424,7 @@ div[data-bg] {
   padding: 200px 0 500px 0; }
 
 .hero-padding-2 {
-  padding: 200px 0 120px 0; }
+  padding: 150px 0 120px 0; }
 
 .hero-single {
   position: relative;
@@ -1488,14 +1488,12 @@ div[data-bg] {
   position: absolute;
   z-index: -1; }
 
-.hero-home-2 .hero-content {
-  margin-bottom: 30px; }
-  .hero-home-2 .hero-content p {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color: var(--clr-heading);
-    padding: 0 10rem; }
+.hero-home-2 .hero-content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: var(--clr-heading);
+  padding: 0 10rem; }
 
 .image-rotate {
   display: flex;
@@ -3761,6 +3759,9 @@ ul.chk {
       line-height: 24px;
       margin-bottom: 0;
       color: var(--clr-white); }
+
+.hero-about-page img {
+  border-radius: 16px; }
 
 /*-------------------------------------------------------
 27. Service CSS 

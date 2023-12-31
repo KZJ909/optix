@@ -559,7 +559,7 @@
 					slidesPerView: 5,
 				},
 				1300: {
-					slidesPerView: 5,
+					slidesPerView: 7,
 				},
 			},
 		})
