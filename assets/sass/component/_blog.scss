@@ -85,6 +85,21 @@
 
 //Blog page
 
+
+.blog-pge-content {
+	.blog-box {
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.blog-pic {
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
 .blog-page-shadow {
     margin-bottom: 30px;
 	.blog-meta {
