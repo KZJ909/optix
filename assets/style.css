@@ -1488,6 +1488,36 @@ div[data-bg] {
   position: absolute;
   z-index: -1; }
 
+.service-btm-content {
+  align-items: flex-end;
+  padding-left: 100px;
+  margin-top: -5rem; }
+
+.service-btm-left {
+  border-radius: 16px;
+  background: var(--clr-heading);
+  padding: 5rem; }
+  .service-btm-left h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1px;
+    color: var(--clr-white); }
+  .service-btm-left p {
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #E6E6EB !important;
+    padding: 0 !important; }
+
+.service-btm-right p {
+  font-family: var(--font-1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0 !important; }
+
 .hero-home-2 .hero-content p {
   font-size: 18px;
   font-weight: 500;
