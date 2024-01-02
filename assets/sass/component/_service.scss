@@ -265,3 +265,53 @@
 	gap: 10px;
 	color: var(--clr-heading);
 }
+
+//Service Account 4
+
+.service-account-wpr {
+	grid-row-gap: 0;
+}
+
+.service-acc-box {
+	border: 1px solid #6C6C73;
+	border-right: none;
+	border-left: none;
+	padding: 4rem;
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	&:first-child {
+		border-bottom: none;
+	}
+	&:nth-child(2) {
+		border-bottom: none;
+	}
+	.service-acc-num {
+		span {
+			font-family: var(--font-1);
+			font-size: 32px;
+			font-weight: 600;
+			line-height: 42px;
+			letter-spacing: -1px;
+			display: block;
+			color: var(--clr-heading);
+		}
+	}
+	.service-acc-desc {
+		h4 {
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 34px;
+			letter-spacing: -0.5px;
+		}
+		p {
+			font-family: var(--font-1);
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			color: #343438;
+		}
+	}
+}
+
+
