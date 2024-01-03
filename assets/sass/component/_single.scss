@@ -7,20 +7,71 @@
 	width: 728px;
 }
 
+
+.border-radius-16 {
+	border-radius: 16px;
+}
+
+.single-uss {
+	display: grid;
+	grid-template-columns: 75px 1fr;
+	grid-gap: 15px;
+	align-items: center;
+	img {
+		border-radius: 50%;
+	}
+	.single-uss-bio {
+		h5 {
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 27px;
+			margin-bottom: 5px;
+		}
+		span {
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1;
+		}
+	}
+}
+
 .single-title {
 	font-family: var(--font-1);
-	font-size: 24px;
+	font-size: 48px;
 	font-weight: 600;
-	line-height: 29px;
-	color: var(--clr-white);
+	line-height: 55px;
+	letter-spacing: -2px;
 }
 
 .single-text {
-	font-size: 16px;
+	font-family: var(--font-1);
+	font-size: 18px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 27px;
 	letter-spacing: 0.04em;
-	color: var(--clr-bbb);
+	color: #343438;
+}
+
+.service-page-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	li {
+		display: flex;
+		align-items: center;
+		gap: 22px;
+		i {
+			font-size: 8px;
+			color: var(--clr-heading);
+		}
+		span {
+			font-family: var(--font-1);
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 27px;
+			color: #343438;
+		}
+	}
 }
 
 .theme-meta {
