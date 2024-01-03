@@ -3637,8 +3637,7 @@ ul.chk {
 .contact-left-up h4 {
   font-size: 24px;
   font-weight: 600;
-  line-height: 29px;
-  color: var(--clr-white); }
+  line-height: 29px; }
 .contact-left-up span {
   font-size: 16px;
   font-weight: 400;
@@ -3647,38 +3646,38 @@ ul.chk {
   color: var(--clr-bbb); }
 
 .input-pos .input-style-2 {
-  background: rgba(0, 0, 0, 0.7);
-  border: none;
-  height: 48px;
-  color: var(--clr-white-50);
-  font-size: 16px; }
+  background: transparent;
+  border: 1px solid #d0d0db;
+  height: 64px;
+  font-size: 16px;
+  padding-left: 2rem; }
   .input-pos .input-style-2::placeholder {
     font-family: var(--font-1);
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
-    color: var(--clr-white-50); }
+    color: var(--clr-heading); }
   .input-pos .input-style-2:focus {
-    background: rgba(0, 0, 0, 0.7);
-    border: none;
+    background: transparent;
+    border: 1px solid #d0d0db;
     outline: none;
     box-shadow: none; }
 
 .input-style-textarea-1 {
   height: 100px;
-  background: rgba(0, 0, 0, 0.7);
-  border: none;
-  color: var(--clr-white-50) !important;
+  background: transparent;
+  border: 1px solid #d0d0db;
   font-size: 16px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding: 2rem 0 0 2rem; }
   .input-style-textarea-1::placeholder {
     font-family: var(--font-1);
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
-    color: var(--clr-white-50); }
+    color: var(--clr-heading); }
   .input-style-textarea-1:focus {
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     border: none;
     outline: none;
     box-shadow: none;
@@ -3696,8 +3695,14 @@ ul.chk {
   border: none;
   outline: none; }
 
-.contact-page .input-style-textarea-1 {
-  height: 232px; }
+.login-btns button:hover i {
+  filter: invert(1); }
+
+.contact-page {
+  background: var(--clr-bg);
+  padding: 3rem; }
+  .contact-page .input-style-textarea-1 {
+    height: 232px; }
 
 .contact-page-right-content {
   height: 100%; }
@@ -3717,19 +3722,34 @@ ul.chk {
   color: var(--clr-white); }
 
 .contact-kl-box {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 15px; }
+  border-radius: 16px;
+  background: #44444D;
+  padding: 5rem 3rem; }
   .contact-kl-box:last-child {
     margin-bottom: 0; }
   .contact-kl-box i {
-    display: inline-block; }
-  .contact-kl-box p {
+    display: block;
+    margin-bottom: 2rem; }
+  .contact-kl-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--clr-white);
+    margin-bottom: 10px; }
+  .contact-kl-box span {
+    font-family: var(--font-1);
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    color: var(--clr-white-60); }
+    line-height: 24px;
+    display: block;
+    color: var(--clr-white);
+    margin-bottom: 2rem; }
+  .contact-kl-box p {
+    color: var(--clr-def);
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; }
 
 /*Google Maps*/
 .g-map-area {

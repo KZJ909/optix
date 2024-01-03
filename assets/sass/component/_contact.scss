@@ -7,7 +7,6 @@
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 29px;
-		color: var(--clr-white);
 	}
 	span {
 		font-size: 16px;
@@ -20,21 +19,21 @@
 
 .input-pos {
 	.input-style-2 {
-		background: rgba(0,0,0,.7);
-		border: none;
-		height: 48px;
-		color: var(--clr-white-50);
+		background: transparent;
+		border: 1px solid #d0d0db;
+		height: 64px;
 		font-size: 16px;
+		padding-left: 2rem;
 		&::placeholder {
 			font-family: var(--font-1);
 			font-size: 16px;
 			font-weight: 400;
 			line-height: 1;
-			color: var(--clr-white-50);
+			color: var(--clr-heading);
 		}
 		&:focus {
-			background: rgba(0,0,0,.7);
-			border: none;
+			background: transparent;
+			border: 1px solid #d0d0db;
 			outline: none;
 			box-shadow: none;
 		}
@@ -43,20 +42,20 @@
 
 .input-style-textarea-1 {
 	height: 100px;
-	background: rgba(0,0,0,.7);
-	border: none;
-	color: var(--clr-white-50)!important;
+	background: transparent;
+	border: 1px solid #d0d0db;
 	font-size: 16px;
 	margin-bottom: 30px;
+	padding: 2rem 0 0 2rem;
 	&::placeholder {
 		font-family: var(--font-1);
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 1;
-		color: var(--clr-white-50);
+		color: var(--clr-heading);
 	}
 	&:focus {
-		background: rgba(0,0,0,.7);
+		background: transparent;
 		border: none;
 		outline: none;
 		box-shadow: none;
@@ -75,12 +74,25 @@
 	color: #101111;
 	border: none;
 	outline: none;
+	
 }
 
+
+.login-btns {
+	button {
+		&:hover {
+			i {
+				filter: invert(1);
+			}
+		}
+	}
+}
 
 //Contact page
 
 .contact-page {
+	background: var(--clr-bg);
+	padding: 3rem;
 	.input-style-textarea-1 {
 		height: 232px;
 	}
@@ -109,21 +121,38 @@
 }
 
 .contact-kl-box {
-	display: flex;
-	align-items: flex-start;
-	gap: 10px;
-	margin-bottom: 15px;
+	border-radius: 16px;
+	background: #44444D;
+	padding: 5rem 3rem;
 	&:last-child {
 		margin-bottom: 0;
 	}
 	i {
-		display: inline-block;
+		display: block;
+		margin-bottom: 2rem;
 	}
-	p {
+	h5 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 30px;
+		color: var(--clr-white);
+		margin-bottom: 10px;
+	}
+	span {
+		font-family: var(--font-1);
 		font-size: 16px;
 		font-weight: 400;
-		line-height: 26px;
-		color: var(--clr-white-60);
+		line-height: 24px;
+		display: block;
+		color: var(--clr-white);
+		margin-bottom: 2rem;
+	}
+	p {
+		color: var(--clr-def);
+		font-family: var(--font-1);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
 	}
 }
 
