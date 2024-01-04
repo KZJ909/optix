@@ -6,19 +6,21 @@
 		-webkit-transition: .4s;
 		transition: .4s;
 		width: 100%;
-		height: 3px;
+		height: 100%;
 		content: "";
 		position: absolute;
 		left: 0;
-		bottom: -1px;
-		z-index: 0;
-		background: var(--clr-def);
+		top: 0;
+		z-index: -1;
+		background: #44444D;
+		border-radius: 30px;
 	}
 }
 
 .navbar-nav .nav-item>.nav-link {
 	display: inline-block;
 	position: relative;
+	z-index: 34;
 }
 
 .nav-item.dropdown .navbar-nav .nav-item.active>.nav-link, 
