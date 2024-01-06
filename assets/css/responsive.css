@@ -777,12 +777,27 @@
 	}
 	
 	.hero-title {
-		font-size: 68px;
+		font-size: 45px;
+		line-height: 50px;
 	}
 	
 	.hero-single-3 {
 		height: auto;
 		padding: 16rem 0 5rem 0;
+	}
+	
+	.image-rotate {
+		flex-wrap: wrap;
+	}
+	
+	.hero-content {
+		text-align: center;
+		margin-bottom: 5rem;
+		padding-left: 0;
+	}
+	
+	.hero-about-page {
+		text-align: center;
 	}
 	
 	/*	Site Title*/
@@ -828,6 +843,22 @@
 		margin-bottom: 3rem;
 	}
 	
+	.hy-right-content {
+		text-align: center;
+	}
+	
+	.hy-list li .hy-ll-box {
+		justify-content: center;
+	}
+	
+	.hy-wpr {
+		text-align: center;
+	}
+	
+	.hy-left-pic.hy-style-2.text-right.pos-rel {
+		text-align: center;
+	}
+	
 	/*	Step*/
 	
 	.step-wpr::before {
@@ -836,6 +867,9 @@
 	
 	/*	CTA*/
 	
+	.arr-img {
+		left: 5%;
+	}
 	
 	/*	Fun Fact*/
 	
@@ -855,6 +889,14 @@
 	
 	/*	Service*/
 	
+	.feature-wpr {
+		grid-row-gap: 6rem;
+	}
+	
+	.service-btm-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 	
 	/*	Project Single*/
 	
