@@ -693,6 +693,14 @@
 		background-size: 0vw auto;
 	}
 	
+	.navbar-nav {
+		background: white;
+		border-radius: 0;
+	}
+	
+	.navbar-nav .nav-item.active > .nav-link::before, .navbar-nav .nav-item:active:focus > .nav-link::before, .navbar-nav .nav-item:active > .nav-link::before, .navbar-nav .nav-item:focus > .nav-link::before, .navbar-nav .nav-item:hover > .nav-link::before {
+		background: white;
+	}
 	
 	/*  Defferent Logo*/
 	
@@ -744,8 +752,12 @@
 	
 	/*	Hero*/
 	
-	.hero-single {
-		margin-top: 6rem;
+	.hero-single .hero-content p {
+		padding: 0;
+	}
+	
+	.hero-padding {
+		padding: 160px 0 500px 0;
 	}
 	
 	.hero-home-1 {
@@ -788,6 +800,11 @@
 	
 	.about-right {
 		padding-left: 0;
+		text-align: center;
+	}
+	
+	.about-count {
+		justify-content: center;
 	}
 	
 	.hero-grid {
@@ -800,39 +817,28 @@
 		font-size: 36px;
 	}
 	
-	
-	
-	/*	Gallery*/
-	
-/*
-	.grid-gallery {
-		grid-template-columns: repeat(1, 1fr);
-	}
-*/
-	
-	.gallery-box-2 img {
-		height: auto;
+	.partner-text {
+		color: var(--clr-heading);
 	}
 	
-	.gallery-bio-left h4 {
-		font-size: 20px;
+	/*	Why*/
+	
+	.why-left {
+		text-align: center;
+		margin-bottom: 3rem;
 	}
 	
-	.gallery-bio-left span {
-		font-size: 16px;
+	/*	Step*/
+	
+	.step-wpr::before {
+		display: none;
 	}
 	
 	/*	CTA*/
 	
-	.p-337 {
-		padding: 145px 0;
-	}
 	
 	/*	Fun Fact*/
 	
-	.fun-fact.fun-active {
-		border-right: none;
-	}
 	
 	/*	Price*/
 	
@@ -846,65 +852,18 @@
 	
 	/*	Faq*/
 	
-	.faq-2-pic {
-		display: none;
-	}
-	
-	.faq-2 {
-		padding-right: 0;
-	}
 	
 	/*	Service*/
 	
-	.mt-123 {
-		margin-top: 0;
-	}
 	
 	/*	Project Single*/
 	
-	.project-client-info {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	
-	.project-single-text p {
-		padding-right: 0;
-	}
-	
-	.project-single-ele  img {
-		padding-left: 0;
-	}
-	
-	.project-client-info {
-		margin-left: 0;
-	}
-	
-	.proj-proj p {
-		padding-left: 0;
-	}
 	
 	/*	Review*/
 	
-	.rev-main .swiper-container {
-		height: 425px;
-	}
-	
-	.slide-inner {
-		padding: 6rem 6rem;
-	}
-	
-	.client-left-element {
-		margin-bottom: 5rem;
-	}
 	
 	/*	Logo Content*/
 	
-	.logo-content-wpr {
-		grid-template-columns: 1fr 1fr;
-	}
-	
-	.logo-num-social-content {
-		display: inline;
-	}
 	
 	/*	Footer*/
 	
@@ -921,6 +880,10 @@
 	}
 	
 	.lnk-1 {
+		padding-left: 0;
+	}
+	
+	.lnk-2 {
 		padding-left: 0;
 	}
 	
@@ -1169,8 +1132,9 @@
 	}
 	
 	.hero-title {
-		font-size: 36px;
+		font-size: 24px;
 		line-height: 40px;
+		letter-spacing: .4px;
 	}
 	
 	.hero-single .hero-content p {
@@ -1216,23 +1180,24 @@
 		width: auto;
 	}
 	
-	/*	Hero 3*/
-	
-	.hero-single-3 {
-		height: auto;
-		padding-top: 10rem;
-		text-align: center;
+	.image-rotate {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 	
-	.hero-content-3 h2 {
-		font-size: 36px;
-		line-height: 45px;
+	.btn-1 {
+		padding: 2.5rem 2rem;
 	}
+	
+	/*	Hero 2*/
+	
+	
 	
 	/*	About*/
 	
 	.title-site {
-		font-size: 28px;
+		font-size: 24px;
 		line-height: 35px;
 	}
 	
@@ -1243,6 +1208,15 @@
 	
 	.about-count .about-count-box span {
 		font-size: 16px;
+	}
+	
+	.about-count {
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	
+	.hero-about-page {
+		margin-top: 5rem;
 	}
 	
 	/*	Partner*/
@@ -1270,6 +1244,22 @@
 		margin-bottom: 3rem;
 	}
 	
+	.hy-list li .hy-ll-box i {
+		display: none;
+	}
+	
+	.hy-card {
+		bottom: -15px;
+	}
+	
+	.hy-style-2 .hy-card {
+		left: 0;
+	}
+	
+	.hy-right {
+		padding-left: 0;
+	}
+	
 	/*	Price*/
 	
 	.price-box-content {
@@ -1287,20 +1277,44 @@
 	
 	/*	CTA*/
 	
+	.arr-img {
+		left: 4%;
+		width: 40px;
+	}
+	
 	/*	Step */
 	
 	.step-wpr::before {
 		display: none;
 	}
 	
-	/*	Counter*/
+	/*	Feature*/
 	
+	.feature-wpr  {
+		grid-row-gap: 6rem;
+	}
 	
 	/*	Review*/
 	
 	
 	/*	Service*/
 	
+	.service-btm-content {
+		padding-left: 0;
+		margin-top: 3rem;
+	}
+	
+	.service-btm-left {
+		padding: 3rem;
+	}
+	
+	.service-acc-box {
+		padding: 1rem;
+	}
+	
+	.service-acc-box .service-acc-desc h4 {
+		font-size: 20px;
+	}
 	
 	/*	Project Single*/
 	
