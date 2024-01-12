@@ -140,3 +140,28 @@
 	}
 }
 
+//Price nav
+
+.price-yr-nav {
+	text-align: center;
+	.nav {
+		display: inline-flex;
+		padding: 1rem;
+		background: #F9F9FA;
+		border-radius: 30px;
+		.nav-item {
+			.nav-link {
+				padding: 16px 24px 16px 24px;
+				color: var(--clr-heading);
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 1;
+				font-family: var(--font-1);
+				border-radius: 30px;
+				&.active {
+					background: var(--clr-def);
+				}
+			}
+		}
+	}
+}

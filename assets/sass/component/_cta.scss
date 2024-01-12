@@ -65,6 +65,16 @@
 	color: var(--clr-white);
 }
 
+.cta-tl {
+	font-size: 72px;
+	font-weight: 600;
+	line-height: 79px;
+	letter-spacing: -2px;
+	span {
+		color: var(--clr-def);
+	}
+}
+
 .cta-play {
 	a {
 		i {

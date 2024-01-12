@@ -35,6 +35,11 @@
 		.btn-1 {
 			background: var(--clr-def);
 			color: var(--clr-heading);
+			border: none;
+			&:hover {
+				background: var(--clr-heading);
+				color: var(--clr-white);
+			}
 		}
 	}
 }

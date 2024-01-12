@@ -19,6 +19,22 @@
 	transition: all .5s ease;
 }
 
+.btn-hm-2-btn {
+	padding: 20px 40px;
+	border: 1px solid var(--clr-heading);
+	color: var(--clr-heading);
+	border-radius: 100px;
+	font-family: var(--font-1);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1;
+	transition: all .5s ease;
+	&:hover {
+		background: var(--clr-def);
+		border: 1px solid var(--clr-def);
+	}
+}
+
 .btn-transparent {
 	display: inline-block;
 	text-align: center;
@@ -47,10 +63,16 @@
 	@include btn-style;
 	i {
 		margin-left: 1rem;
+		transition: all .5s ease;
+		display: inline-block;
 	}
 	&:hover {
 		background-color: var(--clr-heading); 
 		color: var(--clr-white); 
+		i {
+			filter: invert(1);
+			transform: translate(3px, -3px);
+		}
 	}
 }
 

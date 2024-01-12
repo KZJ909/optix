@@ -66,6 +66,11 @@
 	color: var(--clr-heading);
 	position: relative;
 	z-index: 1;
+	&:hover {
+		i {
+			transform: translate(3px, -3px);
+		}
+	}
 	&::before {
 		position: absolute;
 		z-index: -1;
@@ -80,6 +85,7 @@
 		line-height: 1;
 		font-size: 14px;
 		margin-top: 5px;
+		transition: all 0.3s ease-in-out;
 	}
 }
 

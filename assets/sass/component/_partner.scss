@@ -2,12 +2,28 @@
 48. Partner css
 ---------------------------------------------------------*/
 
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .pt-110 {
 	padding-top: 110px;
 }
 
 .inf-slider {
     rotate: -2deg;
+	position: relative;
+	z-index: 1;
+	&::before {
+		height: 100%;
+		width: 102%;
+		position: absolute;
+		content: '';
+		top: 0px;
+		left: -3px;
+		background: var(--clr-black); 
+	}
 }
 
 .inf-shadow {

@@ -143,11 +143,11 @@
 	z-index: 1;
 	color: var(--clr-heading);
 	margin-bottom: 24px;
-	padding-bottom: 2rem;
 	&::before {
 		@include pos-abs(#636D7A,1px,30px,1);
 		bottom: 0;
 		left: 0;
+		display: none;
 	}
 }
 
@@ -257,13 +257,15 @@
 			i {
 				display: inline-block;
 				text-align: center;
-				color: var(--clr-white);
+				color: var(--clr-heading);
 				transition: all .5s ease;
-				background: var(--clr-heading);
+				background: transparent;
 				width: 40px;
 				height: 40px;
 				line-height: 40px;
-				border: 1px solid var(--clr-border-2);
+				border: 1px solid var(--clr-heading);
+				-webkit-border-radius: 50%;
+				border-radius: 50%;
 				&:hover {
 					background: var(--clr-white);
 					color: var(--clr-heading);
