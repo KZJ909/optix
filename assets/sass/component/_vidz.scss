@@ -20,6 +20,21 @@
     color: #fff!important;
 }
 
+.vidz-wpr {
+	position: relative;
+	z-index: 1;
+	img {
+		filter: brightness(.3);
+	}
+	.pl {
+		position: absolute;
+		z-index: 1;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+}
+
 
 //Play Button
 
@@ -34,8 +49,9 @@
 
 .pl {
 	position: absolute;
-    bottom: 20px;
-    left: 15px;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%);
 	.play-bt {
 		width: 9rem;
 		height: 9rem;
@@ -46,10 +62,10 @@
 		z-index: 1;
 		display: inline-block;
 		background-color: var(--clr-def);
-		line-height: 115px;
+		line-height: 98px;
 		padding-left: 5px;
 		i {
-			color: var(--clr-white);
+			color: var(--clr-heading);
 			font-size: 4rem;
 		}
 		&:hover {

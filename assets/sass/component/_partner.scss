@@ -2,8 +2,37 @@
 48. Partner css
 ---------------------------------------------------------*/
 
+.pt-110 {
+	padding-top: 110px;
+}
+
 .inf-slider {
     rotate: -2deg;
+}
+
+.inf-shadow {
+	&::before {
+		position: absolute;
+		z-index: 4;
+		content: '';
+		top: 0;
+		left: 0;
+		background-color: transparent;
+		background-image: linear-gradient(90deg, #FFFFFFBD 0%, #F2295B00 100%);
+		width: 300px;
+		height: 100%;
+	}
+	&::after {
+		position: absolute;
+		z-index: 4;
+		content: '';
+		top: 0;
+		right: 0;
+		background-color: transparent;
+		background-image: linear-gradient(-90deg, var( --clr-white ) 0%, #F2295B00 100%);
+		width: 300px;
+		height: 100%;
+	}
 }
 
 .ptnr-sldr {

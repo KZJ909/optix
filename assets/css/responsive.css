@@ -117,7 +117,7 @@
 	}
 	
 	.nav-item.dropdown>.navbar-nav {
-		left: 0px;
+		left: -50px;
 	}
 	
 	.navbar .dropdown-menu.fade-up {

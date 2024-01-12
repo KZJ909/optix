@@ -46,6 +46,16 @@
 	}
 }
 
+.hero-btm-tx {
+	margin-top: 10px;
+	line-height: 21px;
+    font-weight: 400;
+    font-style: normal;
+    color: #6C6C73;
+    font-size: 14px;
+	font-family: var(--font-1);
+}
+
 .hero-form {
 	.hero-form-inputs {
 		position: relative;
@@ -80,6 +90,11 @@
 			font-weight: 500;
 			line-height: 24px;
 			border: none;
+			transition: all .5s ease;
+			&:hover {
+				background: var(--clr-heading);
+				color: var(--clr-def);
+			}
 		}
 	}
 }

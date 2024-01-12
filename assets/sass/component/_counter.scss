@@ -8,32 +8,26 @@
 
 .counter-1 {
 	.fun-fact {
-		text-align: center;
-		padding: 5rem 0;
-		border-right: 1px solid #3b3c3c;
-		&:last-child {
-			border-right: none;
-		}
+		text-align: left;
 		.counter {
 			position: relative;
 			display: flex;
 			align-items: center;
-			justify-content: center;
-			color: var(--clr-white);
-			margin-bottom: 4rem;
+			justify-content: flex-start;
 			font-family: var(--font-1);
-			font-size: 48px;
-			font-weight: 700;
-			line-height: 1;
+			font-size: 56px;
+			font-weight: 600;
+			line-height: 64px;
+			letter-spacing: -2px;
+			
 		}
 		span {
 			font-family: var(--font-1);
-			font-size: 16px;
-			font-weight: 400;
-			line-height: 1;
-			color: var(--clr-white);
-			padding: 11px 28px;
-			border: 1px solid var(--clr-border);
+			color: var(--clr-heading);
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 30px;
+			display: inline-block;
 		}
 	}
 }

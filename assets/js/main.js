@@ -598,6 +598,39 @@
 		})
 		
 		/* ==================================================
+			# Infinite Slider 3
+		 ===============================================*/
+		
+		var swiper = new Swiper('.sample-slider-3', {
+			loop: true,
+			autoplay: {
+				delay: 0,
+				pauseOnMouseEnter: true,        // added
+				disableOnInteraction: false,    // added
+			},
+			speed: 7000,
+			spaceBetween:1,
+			centeredSlides: true,
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+				},
+				650: {
+					slidesPerView: 1,
+				},
+				768: {
+					slidesPerView: 1,
+				},
+				1201: {
+					slidesPerView: 1,
+				},
+				1300: {
+					slidesPerView: 1,
+				},
+			},
+		})
+		
+		/* ==================================================
 			# Gallery Slider 2
 		 ===============================================*/
 		

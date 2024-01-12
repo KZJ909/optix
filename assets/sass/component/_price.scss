@@ -7,6 +7,35 @@
 	border-radius: 16px;
 	padding: 6rem 5rem;
 	background: var(--clr-bg);
+	transition: all .5s ease;
+	&:hover {
+		background: var(--clr-bg-2);
+		.price-up {
+			.price-ribbon {
+				color: var(--clr-white);
+			}
+			.price-value {
+				color: var(--clr-def);
+			}
+		}
+		.price-feature {
+			color: var(--clr-white);
+		}
+		.price-list {
+			li {
+				i {
+					color: var(--clr-def);
+				}
+				color: var(--clr-white);
+			}
+		}
+		.price-bottom {
+			.price-btn {
+				background: var(--clr-def);
+				color: var(--clr-heading);
+			}
+		}
+	}
 }
 
 .price-up {
