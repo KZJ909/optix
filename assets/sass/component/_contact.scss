@@ -18,6 +18,14 @@
 }
 
 .input-pos {
+	label {
+		margin-bottom: 16px;
+		font-family: var(--font-1);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1;
+		color: var( --clr-heading );
+	}
 	.input-style-2 {
 		background: transparent;
 		border: 1px solid #d0d0db;
@@ -29,7 +37,7 @@
 			font-size: 16px;
 			font-weight: 400;
 			line-height: 1;
-			color: var(--clr-heading);
+			color: #C0BFC5;
 		}
 		&:focus {
 			background: transparent;
@@ -52,7 +60,7 @@
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 1;
-		color: var(--clr-heading);
+		color: #C0BFC5;
 	}
 	&:focus {
 		background: transparent;

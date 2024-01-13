@@ -184,6 +184,27 @@
 
 //Review 2
 
+.revs-box {
+	transition: all .5s ease;
+	&:hover {
+		background: var(--clr-black);
+		svg {
+			fill: var( --clr-def);
+		}
+		.revs-quote-text {
+			color: var(--clr-white);
+		}
+		.revs-bio-text {
+			h5 {
+				color: var(--clr-white);
+			}
+			span {
+				color: var(--clr-white);
+			}
+		}
+	}
+}
+
 .revs-quote-ic {
 	display: block;
 	margin-bottom: 2rem;

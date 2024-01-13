@@ -201,6 +201,34 @@
 	}
 }
 
+.btn-fet {
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 2rem 4rem;
+	background-color: var(--clr-def);
+	color: var(--clr-heading);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	transition: all .5s ease;
+	border-radius: 50px;
+	i {
+		margin-left: 1rem;
+		transition: all .5s ease;
+		display: inline-block;
+	}
+	&:hover {
+		background-color: var(--clr-heading); 
+		color: var(--clr-white); 
+		i {
+			filter: invert(1);
+			transform: translate(3px, -3px);
+		}
+	}
+}
+
 .btn-md {
 	padding: 18px 35px;
 }

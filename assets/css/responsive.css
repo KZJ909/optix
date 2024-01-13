@@ -1180,6 +1180,10 @@
 		line-height: 40px;
 	}
 	
+	.p-cl {
+		padding-right: 0;
+	}
+	
 	.about-count .about-count-box span {
 		font-size: 16px;
 	}
