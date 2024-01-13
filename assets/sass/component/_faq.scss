@@ -28,7 +28,7 @@
 .accordion-item {
     background-color: var(--clr-white);
 	border: none;
-	margin-bottom: 3rem;
+	margin-bottom: 10rem;
 	&:first-of-type {
 		border-radius: 0;
 	}
@@ -142,6 +142,7 @@
 			font-size: 16px;
 			font-weight: 400;
 			line-height: 24px;
+			padding-right: 10rem;
 		}
 	}
 }

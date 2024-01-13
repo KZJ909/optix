@@ -49,7 +49,7 @@
 	}
 }
 
-.revs-wpr {
+.revs-before {
 	position: relative;
 	z-index: 1;
 	&::before {
@@ -183,6 +183,17 @@
 }
 
 //Review 2
+
+.revs-quote-ic {
+	display: block;
+	margin-bottom: 2rem;
+	svg {
+		fill: var( --clr-heading);
+		height: 32px;
+		width: 32px;
+	}
+} 
+
 
 .client-before {
 	position: relative;

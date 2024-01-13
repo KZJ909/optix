@@ -232,7 +232,7 @@ label {
 .accordion-item {
   background-color: var(--clr-white);
   border: none;
-  margin-bottom: 3rem; }
+  margin-bottom: 10rem; }
   .accordion-item:first-of-type {
     border-radius: 0; }
   .accordion-item:last-child {
@@ -326,7 +326,8 @@ label {
     font-family: var(--font-1);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; }
+    line-height: 24px;
+    padding-right: 10rem; }
 
 .faw {
   border-radius: 10px; }
@@ -4730,10 +4731,10 @@ ul.chk {
     line-height: 21px;
     display: block; }
 
-.revs-wpr {
+.revs-before {
   position: relative;
   z-index: 1; }
-  .revs-wpr::before {
+  .revs-before::before {
     position: absolute;
     z-index: 4;
     content: '';
@@ -4743,7 +4744,7 @@ ul.chk {
     background-image: linear-gradient(90deg, #FFFFFFBD 0%, #F2295B00 100%);
     width: 300px;
     height: 100%; }
-  .revs-wpr::after {
+  .revs-before::after {
     position: absolute;
     z-index: 4;
     content: '';
@@ -4828,6 +4829,14 @@ ul.chk {
   width: 10px; }
 .rev-main .swiper-pagination-bullet-active {
   background: #FFF; }
+
+.revs-quote-ic {
+  display: block;
+  margin-bottom: 2rem; }
+  .revs-quote-ic svg {
+    fill: var(--clr-heading);
+    height: 32px;
+    width: 32px; }
 
 .client-before {
   position: relative;
@@ -7424,6 +7433,42 @@ h4.team-single-title::before {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.ptnr-sldr {
+  padding: 0 15px 0 15px;
+  margin: 0 15px 0 15px; }
+  .ptnr-sldr .swiper-wrapper {
+    padding-top: 30px; }
+  .ptnr-sldr .swiper-button-next:after,
+  .ptnr-sldr .swiper-button-prev:after {
+    font-size: 20px;
+    color: var(--clr-white); }
+  .ptnr-sldr .swiper-button-prev, .ptnr-sldr .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, -5px); }
+  .ptnr-sldr .swiper-button-next, .ptnr-sldr .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, -5px); }
+
+.partner-name img {
+  transition: all .5s ease; }
+.partner-name:hover img {
+  scale: 1.1; }
+.partner-name:hover .partner-name-text {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0); }
+
+.partner-name-text {
+  display: block;
+  font-family: var(--font-1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--clr-def);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, -30px);
+  transition: all .5s ease;
+  margin-top: 20px; }
 
 /*-------------------------------------------------------
 49. Skill Progress css 

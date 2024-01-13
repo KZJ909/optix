@@ -805,8 +805,8 @@
 					spaceBetween: 40,
 				},
 				1024: {
-					slidesPerView: 2,
-					slidesPerColumn: 2,
+					slidesPerView: 3,
+					slidesPerColumn: 3,
 					spaceBetween: 30,
 				},
 			},
@@ -821,8 +821,12 @@
 			autoplay: {
 				delay: 5000,
 			},
-			spaceBetween: 50,
+			spaceBetween: 20,
 			slidesPerColumn: 1,
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
 			breakpoints: {
 				0: {
 					slidesPerView: 2,
@@ -835,7 +839,7 @@
 					
 				},
 				1024: {
-					slidesPerView: 5,
+					slidesPerView: 6,
 				},
 			},
 		});
