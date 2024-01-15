@@ -1,7 +1,7 @@
 /* ===================================================================
     
     Author          : Kazi Sahiduzzaman
-    Template Name   : Digitec - Business And Agency HTML Template
+    Template Name   : Optix - Business And Agency HTML Template
     Version         : 1.0
     
 * ================================================================= */
@@ -547,7 +547,7 @@
 			speed: 3000,
 			breakpoints: {
 				0: {
-					slidesPerView: 1,
+					slidesPerView: 2,
 				},
 				650: {
 					slidesPerView: 2,

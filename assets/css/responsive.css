@@ -207,8 +207,6 @@
 	}
 	
 	.hero-title {
-		font-size: 65px;
-		line-height: 76px;
 	}
 	
 	.hero-home-1 {
@@ -431,6 +429,10 @@
 	
 	.arr-img {
 		left: 10%;
+	}
+	
+	.cta-left {
+		padding-right: 0;
 	}
 	
 	/*	Project Single*/
@@ -687,6 +689,10 @@
 		padding: 160px 0 500px 0;
 	}
 	
+	.hero-padding-2 {
+		padding: 180px 0 70px 0;
+	}
+	
 	.hero-home-1 {
 		background-size: 0!important;
 	}
@@ -704,8 +710,8 @@
 	}
 	
 	.hero-title {
-		font-size: 45px;
-		line-height: 50px;
+		font-size: 50px;
+		line-height: 55px;
 	}
 	
 	.hero-single-3 {
@@ -719,7 +725,6 @@
 	
 	.hero-content {
 		text-align: center;
-		margin-bottom: 5rem;
 		padding-left: 0;
 	}
 	
@@ -749,6 +754,15 @@
 		justify-content: center;
 	}
 	
+	.hy-star-1 {
+		top: 0px;
+		left: 60px;
+	}
+	
+	.hy-style-2 .hy-star-1 {
+		right: 80px;
+	}
+	
 	.hero-grid {
 		grid-template-columns: 1fr;
 	}
@@ -763,6 +777,10 @@
 		color: var(--clr-heading);
 	}
 	
+	.hemo-1sldr.pt-110 {
+		padding-top: 170px;
+	}
+	
 	/*	Why*/
 	
 	.why-left {
@@ -773,6 +791,11 @@
 	.why-right{
 		padding-left: 0;
 		margin-top: 3rem;
+		text-align: center;
+	}
+	
+	.why-opt-box i {
+		margin: 0 auto 18px;
 	}
 	
 	.hy-right-content {
@@ -791,6 +814,19 @@
 		text-align: center;
 	}
 	
+	.hy-right {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	.p-cl {
+		padding-right: 0;
+	}
+	
+	.hyi-list li .hy-lll-box.hy-bh {
+		align-items: center;
+	}
+	
 	/*	Step*/
 	
 	.step-wpr::before {
@@ -801,6 +837,11 @@
 	
 	.arr-img {
 		left: 5%;
+	}
+	
+	.cta-left {
+		padding-right: 0;
+		margin-bottom: 5rem;
 	}
 	
 	/*	Fun Fact*/
@@ -1097,7 +1138,7 @@
 	
 	.hero-single {
 		height: auto;
-		padding-top: 10rem;
+		padding-top: 15rem;
 		padding-bottom: 5rem;
 	}
 	
@@ -1106,8 +1147,8 @@
 	}
 	
 	.hero-title {
-		font-size: 24px;
-		line-height: 40px;
+		font-size: 45px;
+		line-height: 50px;
 		letter-spacing: .4px;
 	}
 	
@@ -1142,10 +1183,6 @@
 		right: 0;
 	}
 	
-	.partner-area {
-		display: none;
-	}
-	
 	.dash-area-minus {
 		margin-top: 50px;
 	}
@@ -1158,10 +1195,19 @@
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	
 	.btn-1 {
 		padding: 2.5rem 2rem;
+	}
+	
+	.pt-110 {
+		padding-top: 40px;
+	}
+	
+	.site-title {
+		margin-bottom: 4rem;
 	}
 	
 	/*	Hero 2*/
@@ -1171,13 +1217,17 @@
 	/*	About*/
 	
 	.title-site {
-		font-size: 24px;
-		line-height: 35px;
+		font-size: 30px;
+		line-height: 38px;
 	}
 	
 	.site-title h2 {
 		font-size: 24px;
 		line-height: 40px;
+	}
+	
+	.def-title {
+		margin-bottom: 4rem;
 	}
 	
 	.p-cl {
@@ -1191,10 +1241,21 @@
 	.about-count {
 		gap: 30px;
 		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.about-left-content {
+		text-align: center;
 	}
 	
 	.hero-about-page {
 		margin-top: 5rem;
+	}
+	
+	.hy-star-1 {
+		top: 0px;
+		left: 0;
+		width: 100px;
 	}
 	
 	/*	Partner*/
@@ -1211,10 +1272,19 @@
     	grid-template-columns: repeat(3, 1fr);
 	}
 	
+	.partner-text {
+		margin-bottom: 30px;
+	}
+	
 	/*	Why*/
 	
 	.why-right {
 		padding-left: 0;
+		text-align: center;
+	}
+	
+	.why-opt-box i {
+		margin: 0 auto 18px auto;
 	}
 	
 	.why-main-img {
@@ -1238,6 +1308,39 @@
 		padding-left: 0;
 	}
 	
+	.hyi-list li .hy-lll-box {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	
+	.hyi-list li .hy-lll-box h5 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	
+	.hy-right-content .title-site {
+		font-size: 39px;
+		line-height: 45px;
+	}
+	
+	.hy-list li .hy-ll-box span {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	
+	.hy-right-content {
+		text-align: center;
+	}
+	
+	.hy-right {
+		padding-right: 0;
+	}
+	
+	.hyi-list li .hy-lll-box.hy-bh {
+		align-items: center;
+	}
+	
+	
 	/*	Price*/
 	
 	.price-box-content {
@@ -1260,6 +1363,25 @@
 		width: 40px;
 	}
 	
+	.cta-left {
+		padding-right: 0;
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+	
+	.cta-tl {
+		font-size: 36px;
+		line-height: 45px;
+	}
+	
+	.cta-dload {
+		justify-content: center;
+	}
+	
+	.cta-right {
+		text-align: center;
+	}
+	
 	/*	Step */
 	
 	.step-wpr::before {
@@ -1274,6 +1396,13 @@
 	
 	/*	Review*/
 	
+	.revs-before::before {
+		display: none;
+	}
+	
+	.revs-before::after {
+		display: none;
+	}
 	
 	/*	Service*/
 	
@@ -1294,10 +1423,23 @@
 		font-size: 20px;
 	}
 	
-	/*	Project Single*/
+	/*	Counter*/
+	
+	.counter-1 .fun-fact .counter {
+		font-size: 40px;
+	}
 	
 	/*	Faq*/
 	
+	.faq-2 .accordion-body p {
+		padding-right: 0;
+	}
+	
+	.accordion-button::after {
+		right: -51px;
+		position: absolute;
+		top: 0;
+	}
 	
 	/*	Blog*/
 	
