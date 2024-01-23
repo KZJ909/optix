@@ -613,19 +613,19 @@
 			centeredSlides: true,
 			breakpoints: {
 				0: {
-					slidesPerView: 1,
+					slidesPerView: 2,
 				},
 				650: {
-					slidesPerView: 1,
+					slidesPerView: 3,
 				},
 				768: {
-					slidesPerView: 1,
+					slidesPerView: 5,
 				},
 				1201: {
-					slidesPerView: 1,
+					slidesPerView: 5,
 				},
 				1300: {
-					slidesPerView: 1,
+					slidesPerView: 6,
 				},
 			},
 		})

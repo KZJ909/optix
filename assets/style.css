@@ -4266,7 +4266,8 @@ ul.chk {
     font-size: 56px;
     font-weight: 600;
     line-height: 64px;
-    letter-spacing: -2px; }
+    letter-spacing: -2px;
+    color: var(--clr-heading); }
   .counter-1 .fun-fact span {
     font-family: var(--font-1);
     color: var(--clr-heading);
