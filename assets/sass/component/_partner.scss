@@ -99,7 +99,7 @@
 }
 
 .ptnr-sldr {
-	padding: 0 15px 0 15px;
+	padding: 0 20px 0 20px;
     margin: 0 15px 0 15px;
 	.swiper-wrapper {
 		padding-top: 30px;
@@ -110,10 +110,10 @@
 		color: var(--clr-white);
 	}
 	.swiper-button-prev, .swiper-rtl .swiper-button-next {
-		left: var(--swiper-navigation-sides-offset,-5px);
+		left: var(--swiper-navigation-sides-offset,-8px);
 	}
 	.swiper-button-next, .swiper-rtl .swiper-button-prev {
-		right: var(--swiper-navigation-sides-offset,-5px);
+		right: var(--swiper-navigation-sides-offset,-8px);
 	}
 }
 

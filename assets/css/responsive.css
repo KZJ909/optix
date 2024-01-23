@@ -203,10 +203,11 @@
 	/*	Hero*/
 	
 	.hero-single {
-		padding-top: 10rem;
+		padding-top: 15rem;
 	}
 	
 	.hero-title {
+		font-size: 70px;
 	}
 	
 	.hero-home-1 {
@@ -399,7 +400,7 @@
 	
 	.hero-title {
 		font-size: 60px;
-		line-height: 80px;
+		line-height: 1.1;
 	}
 	
 	.about-count .about-count-box span {
@@ -435,8 +436,12 @@
 		padding-right: 0;
 	}
 	
-	/*	Project Single*/
+	/*	CTA*/
 	
+	.cta-right {
+		text-align: center;
+		margin-top: 5rem;
+	}
 	
 	/*	Price*/
 	
@@ -452,7 +457,15 @@
 		padding: 15px 20px;
 	}
 	
-	/*	Team*/
+	/*	Step*/
+	
+	.step-box h2 {
+		font-size: 22px;
+	}
+	
+	.step-wpr::before {
+		width: 75%;
+	}
 	
 	/*	Contact*/
 	
@@ -711,7 +724,7 @@
 	
 	.hero-title {
 		font-size: 50px;
-		line-height: 55px;
+		line-height: 1.2;
 	}
 	
 	.hero-single-3 {
@@ -726,10 +739,12 @@
 	.hero-content {
 		text-align: center;
 		padding-left: 0;
+		padding-right: 0;
 	}
 	
 	.hero-about-page {
 		text-align: center;
+		margin-top: 5rem;
 	}
 	
 	/*	Site Title*/
@@ -754,6 +769,10 @@
 		justify-content: center;
 	}
 	
+	.about-left-content {
+		text-align: center;
+	}
+	
 	.hy-star-1 {
 		top: 0px;
 		left: 60px;
@@ -765,6 +784,10 @@
 	
 	.hero-grid {
 		grid-template-columns: 1fr;
+	}
+	
+	.hyi-list {
+		justify-content: center;
 	}
 	
 	/* Partner	*/
@@ -779,6 +802,14 @@
 	
 	.hemo-1sldr.pt-110 {
 		padding-top: 170px;
+	}
+	
+	.inf-shadow::before {
+		display: none;
+	}
+	
+	.inf-shadow::after {
+		display: none;
 	}
 	
 	/*	Why*/
@@ -844,8 +875,17 @@
 		margin-bottom: 5rem;
 	}
 	
-	/*	Fun Fact*/
+	/*	Feature*/
 	
+/*
+	.feature-about-area {
+		padding-bottom: 7rem;
+	}
+	
+	hy-area {
+		pt
+	}
+*/
 	
 	/*	Price*/
 	
@@ -857,8 +897,15 @@
 		padding: 18px 25px;
 	}
 	
+	.hemo-1sldr.de-pb {
+		padding-bottom: 7rem;
+	}
+	
 	/*	Faq*/
 	
+	.accordion-item {
+		margin-bottom: 3rem;
+	}
 	
 	/*	Service*/
 	
@@ -876,11 +923,30 @@
 	
 	/*	Review*/
 	
+	.revs-before::before {
+		display: none;
+	}
+	
+	.revs-before::after {
+		display: none;
+	}
 	
 	/*	Logo Content*/
 	
 	
 	/*	Footer*/
+	
+	.footer-up {
+		text-align: center;
+	}
+	
+	.about-us p {
+		padding-right: 0;
+	}
+	
+	.footer-social {
+		justify-content: center;
+	}
 	
 	.about-right-2 {
 		padding-left: 0;
@@ -1152,6 +1218,10 @@
 		letter-spacing: .4px;
 	}
 	
+	.hero-content {
+		padding-right: 0;
+	}
+	
 	.hero-single .hero-content p {
 		padding: 0;
 	}
@@ -1276,7 +1346,19 @@
 		margin-bottom: 30px;
 	}
 	
+	.inf-shadow::before {
+		display: none;
+	}
+	
+	.inf-shadow::after {
+		display: none;
+	}
+	
 	/*	Why*/
+	
+	.why-left {
+		text-align: center;
+	}
 	
 	.why-right {
 		padding-left: 0;
@@ -1292,12 +1374,12 @@
 		margin-bottom: 3rem;
 	}
 	
-	.hy-list li .hy-ll-box i {
-		display: none;
+	.hy-list li .hy-ll-box {
+		justify-content: center;
 	}
 	
-	.hy-card {
-		bottom: -15px;
+	.hy-list li .hy-ll-box i {
+		display: none;
 	}
 	
 	.hy-style-2 .hy-card {
@@ -1308,9 +1390,15 @@
 		padding-left: 0;
 	}
 	
+	.hyi-list {
+		justify-content: center;
+	}
+	
 	.hyi-list li .hy-lll-box {
-		align-items: flex-start;
+		align-items: center;
 		flex-direction: column;
+		text-align: center;
+		justify-content: center;
 	}
 	
 	.hyi-list li .hy-lll-box h5 {
@@ -1394,6 +1482,13 @@
 		grid-row-gap: 6rem;
 	}
 	
+	.feature-fet {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	
 	/*	Review*/
 	
 	.revs-before::before {
@@ -1439,6 +1534,10 @@
 		right: -51px;
 		position: absolute;
 		top: 0;
+	}
+	
+	.accordion-item {
+		margin-bottom: 3rem;
 	}
 	
 	/*	Blog*/

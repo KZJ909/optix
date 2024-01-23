@@ -550,10 +550,10 @@
 					slidesPerView: 2,
 				},
 				650: {
-					slidesPerView: 2,
+					slidesPerView: 3,
 				},
 				768: {
-					slidesPerView: 2,
+					slidesPerView: 3,
 				},
 				1201: {
 					slidesPerView: 5,

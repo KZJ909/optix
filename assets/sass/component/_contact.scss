@@ -64,10 +64,10 @@
 	}
 	&:focus {
 		background: transparent;
-		border: none;
 		outline: none;
 		box-shadow: none;
-		color: var(--clr-white-50);
+		color: var(--clr-heading);
+		border: 1px solid #d0d0db;
 	}
 }
 
