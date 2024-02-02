@@ -4,6 +4,8 @@
 ---------------------------------------------------------*/
 
 
+//.nav-item.dropdown.fadeup>.navbar-nav.in {  margin-top: 8px; } 
+
 .bg-custom {
 	.navbar {
 		background: var(--clr-black);
@@ -46,7 +48,7 @@
 
 .navbar-nav {
     background: #343438;
-    padding: 8px 32px 8px 8px;
+    padding: 8px 8px 8px 8px;
     border-radius: 100px;
 }
 
@@ -139,7 +141,7 @@
 			}
 			&:last-child {
 				.nav-link {
-					margin-right: 0;
+					margin-right: 0!important;
 				}
 			}
 			&.dropdown {

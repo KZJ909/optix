@@ -18,7 +18,11 @@
 }
 
 .navbar-nav .nav-item:hover>.nav-link {
-	color: var(--clr-menu)!important;
+	color: var(--clr-white)!important;
+}
+
+.navbar-nav.navbar-mobile .nav-item:hover>.nav-link {
+	color: #a2cd2a!important;
 }
 
 .navbar-nav .nav-item>.nav-link {
@@ -33,6 +37,8 @@
 .nav-item.dropdown .navbar-nav .nav-item:focus>.nav-link, 
 .nav-item.dropdown .navbar-nav .nav-item:hover>.nav-link,
  {
+	 color: var(--clr-heading)!important;
+	 padding-left: 6px;
 	&::before {
 		display: none;
 	}

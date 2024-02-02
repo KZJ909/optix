@@ -162,13 +162,19 @@
 
 //Footer About Us
 
+
+
+
 .about-us {
+	padding: 32px;
+	background: #f2f2f0;
+	margin-right: 60px;
+	border-radius: 24px;
 	p {
 		margin-bottom: 24px;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 30px;
-		padding-right: 60px;
 	}
 }
 
@@ -184,7 +190,7 @@
 			font-weight: 400;
 			line-height: 1;
 			&:hover {
-				color: var(--clr-def-2);
+				text-decoration: underline;
 			}
 			i {
 				font-size: 1.4rem;
@@ -267,9 +273,9 @@
 				-webkit-border-radius: 50%;
 				border-radius: 50%;
 				&:hover {
-					background: var(--clr-white);
+					background: var(--clr-def);
 					color: var(--clr-heading);
-					border: 1px solid var(--clr-white);
+					border: 1px solid var(--clr-def);
 				}
 			}
 		}
